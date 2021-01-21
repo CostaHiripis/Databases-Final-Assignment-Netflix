@@ -21,12 +21,19 @@ Insert into Film 1 time took 00:00:00.3719486
 - Delete Film 500000 times took 00:02:21.5866326
 
 ## Entity Framework
-- Insert into Film 1 time took 00:00:15.4517165
-- Select Film 1 time took 00:00:00.8256549
-- Update Film 1 time took 00:00:00.3051453
-- Delete Film 1 time took 00:00:00.0627156
-- Insert into Film 1000 times took 00:00:09.9063531
-- Select Film 1000 times took 00:00:02.0828934
-- Update Film 1000 times took 00:00:04.6425724
-- Delete Film 1000 times took 00:00:07.8705678
-- Insert into Film 100000 times took 00:05:47.9537757
+- Insert into Film 1 time took 12841
+- Select Film 1 time took 2476
+- Update Film 1 time took 2654
+- Delete Film 1 time took 4984
+- Insert into Film 1000 times took 8089
+- Select Film 1000 times took 5679
+- Update Film 1000 times took 6996
+- Delete Film 1000 times took 12252
+- Insert into Film 100000 times took 255640
+- Select Film 100000 times took 148131
+- Update Film 100000 times took 322405
+- Delete Film 100000 times took 315433
+- Insert into Film 500000 times took 1098746
+- Select Film 500000 times took 883093
+- Update Film 500000 times took 2279535
+- Delete Film 500000 times took 2234735
