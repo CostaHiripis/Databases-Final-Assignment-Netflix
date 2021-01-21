@@ -3,7 +3,7 @@ Databases year 2
 
 ## ADO.NET DATA
 
-Insert into Film 1 time took 00:00:00.3719486
+- Insert into Film 1 time took 00:00:00.3719486
 - Get Film 1 times took 00:00:00.0074618
 - Update Film 1 time took 00:00:00.0181942
 - Delete Film 1 time took 00:00:00.0600744
