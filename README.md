@@ -29,3 +29,4 @@ Insert into Film 1 time took 00:00:00.3719486
 - Select Film 1000 times took 00:00:02.0828934
 - Update Film 1000 times took 00:00:04.6425724
 - Delete Film 1000 times took 00:00:07.8705678
+- Insert into Film 100000 times took 00:05:47.9537757
