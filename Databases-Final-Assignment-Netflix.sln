@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NET", "ADO.NET\ADO.NET.csproj", "{3AD698EC-10B0-497A-A7E0-652E4CB84DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{66A73C2F-98C9-4EF6-9685-E214A2DE31F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB", "MongoDB\MongoDB.csproj", "{F99229EC-287B-4C7B-82A5-EC04C323FD12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD698EC-10B0-497A-A7E0-652E4CB84DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD698EC-10B0-497A-A7E0-652E4CB84DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD698EC-10B0-497A-A7E0-652E4CB84DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD698EC-10B0-497A-A7E0-652E4CB84DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A73C2F-98C9-4EF6-9685-E214A2DE31F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A73C2F-98C9-4EF6-9685-E214A2DE31F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A73C2F-98C9-4EF6-9685-E214A2DE31F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A73C2F-98C9-4EF6-9685-E214A2DE31F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99229EC-287B-4C7B-82A5-EC04C323FD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99229EC-287B-4C7B-82A5-EC04C323FD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99229EC-287B-4C7B-82A5-EC04C323FD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99229EC-287B-4C7B-82A5-EC04C323FD12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {678BA3DE-C5BE-41F9-9DC9-DE6302D32772}
+	EndGlobalSection
+EndGlobal
