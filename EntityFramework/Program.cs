@@ -31,6 +31,12 @@ namespace EntityFramework
             UpdateFilmFiveHundredThousandTimes();
             DeleteFilmFiveHundredThousandTimes();
 
+            using (var dbContext = new DatabaseContext())
+            {
+                dbContext.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Films', RESEED, 0)");
+            }
+
+
             Console.ReadLine();
         }
 
@@ -409,6 +415,7 @@ namespace EntityFramework
                     Console.WriteLine("Could not delete Film");
                 }
             }
+
             stopwatch.Stop();
             Console.WriteLine("Delete Film 500000 times took {0}", stopwatch.ElapsedMilliseconds);
         }

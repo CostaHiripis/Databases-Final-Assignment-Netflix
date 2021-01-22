@@ -42,6 +42,7 @@ namespace Databases_Final_Assignment_Netflix
                 GetFilmDataFiveHundredThousandTimes(connection);
                 UpdateFilmDataFiveHundredThousandTimes(connection);
                 DeleteFilmDataFiveHundredThousandTimes(connection);
+
             }
         }
 
@@ -412,6 +413,7 @@ namespace Databases_Final_Assignment_Netflix
                 string queryString = "Delete FROM ContentGenres where filmID = @filmID Delete FROM History where filmID = @filmID Delete FROM Film where filmID = @filmID";
 
                 SqlCommand command = new SqlCommand(queryString, connection);
+
                 command.Parameters.AddWithValue("@filmID", i);
 
                 int affectedRows = command.ExecuteNonQuery();
@@ -421,8 +423,12 @@ namespace Databases_Final_Assignment_Netflix
                     Console.WriteLine("No data was deleted");
                 }
             }
-
+            
             stopwatch.Stop();
+
+            SqlCommand fixIdent = new SqlCommand("DBCC CHECKIDENT ('[Netflix].[dbo].[Film]', RESEED, 0)", connection);
+            fixIdent.ExecuteNonQuery();
+
             Console.WriteLine("Delete Film 500000 times took {0}", stopwatch.ElapsedMilliseconds);
         }
     }
