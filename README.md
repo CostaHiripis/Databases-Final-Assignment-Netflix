@@ -37,3 +37,21 @@ Databases year 2
 - Select Film 500000 times took 883093
 - Update Film 500000 times took 2279535
 - Delete Film 500000 times took 2234735
+
+## MongoDB
+- Insert Film 1 time took 1041
+- Select Film 1 time took 247
+- Update Film 1 time took 60
+- Delete Film 1 time took 35
+- Insert Film 1000 times took 1369
+- Select Film 1000 times took 1249
+- Update Film 1000 times took 1508
+- Delete Film 1000 times took 1613
+- Insert Film 100000 times took 105866
+- Select Film 100000 times took 63633
+- Update Film 100000 times took 55924
+- Delete Film 100000 times took 51121
+- Insert Film 500000 times took 237144
+- Select Film 500000 times took 204098
+- Update Film 500000 times took 186803
+- Delete Film 500000 times took 215646
